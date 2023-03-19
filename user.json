@@ -1,0 +1,68 @@
+{
+    "farmerOnes": [
+      {
+        "name": "John Doe",
+        "ward": "Ward A",
+        "registrationDate": "2023-03-06",
+        "gender": "Male",
+        "dateOfBirth": "1990-01-01",
+        "activitiesInvolved": ["Fresh Horticulture Produce", "Poultry", "Dairy Products"],
+        "ninNumber": "ABC123456789",
+        "phoneNumber": "+256123456789",
+        "directionsToHome": "123 Main Street, Kampala",
+        "residenceType": "Rented",
+        "periodOfStayInWard": 12,
+        "uniqueId": "FO001",
+        "authentication": {
+          "username": "john.doe",
+          "password": "s3cr3t"
+        }
+      }
+    ],
+    "urbanFarmers": [
+      {
+        "name": "Jane Smith",
+        "gender": "Female",
+        "registrationDate": "2023-03-06",
+        "dateOfBirth": "1985-05-10",
+        "activitiesUndertaken": ["Fresh Horticulture Produce"],
+        "contacts": "+256789123456",
+        "nin": "XYZ987654321",
+        "wardName": "Ward A",
+        "uniqueId": "UF001"
+      }
+    ],
+    "produceListings": [
+      {
+        "name": "Tomatoes",
+        "wardName": "Ward A",
+        "date": "2023-03-07",
+        "unitPrice": 3000,
+        "quantity": 10,
+        "modeOfPayment": "Mobile Money",
+        "directions": "456 Second Street, Kampala",
+        "modeOfDelivery": "Pick Up",
+        "produceType": "Organic",
+        "farmerUniqueId": "UF001"
+      }
+    ],
+    "orders": [
+      {
+        "name": "Tomatoes",
+        "wardName": "Ward A",
+        "date": "2023-03-07",
+        "unitPrice": 3000,
+        "quantity": 5,
+        "modeOfPayment": "Mobile Money",
+        "directions": "789 Third Street, Kampala",
+        "modeOfDelivery": "Home Delivery",
+        "produceType": "Organic",
+        "farmerUniqueId": "UF001",
+        "orderedBy": {
+          "name": "John Smith",
+          "phoneNumber": "+256987654321"
+        }
+      }
+    ]
+  }
+  
